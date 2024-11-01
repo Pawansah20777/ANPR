@@ -1,0 +1,90 @@
+/* Navbar Styling */
+.dark-navbar {
+  background-color: #5E4B8D; /* Dark background for navbar */
+  padding: 10px 20px; /* Increase padding for a more spacious look */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.brand {
+  color: white; /* White text for brand */
+  margin-left: 5px;
+  font-size: 1.5em; /* Slightly larger for emphasis */
+  font-weight: bold;
+  letter-spacing: 1px; /* Increase letter spacing */
+}
+
+/* Nav Link Styling */
+.nav-link {
+  color: white; /* White text for nav links */
+  margin: 0 15px; /* Increased spacing between links */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px 15px; /* Add padding for a larger click area */
+  border-radius: 5px; /* Rounded edges for smoother look */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.nav-link:hover {
+  background-color: #4a3f6c; /* Background on hover */
+  color: #d1c4e9; /* Lighter shade of white */
+  text-decoration: none;
+}
+
+/* Sign In Button Styling */
+.sign-in-button {
+  background-color: #4a3f6c; /* Button color matches navbar */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  margin-right: 15px;
+  padding: 10px 20px;
+  border-radius: 5px; /* Rounded edges */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.sign-in-button:hover {
+  background-color: #3e3573; /* Darker shade on hover */
+  color: #d1c4e9; /* Lighter shade on hover */
+}
+
+/* General Text Color for Navbar Elements */
+.navbar, .navbar-brand, .nav-link, .sign-in-button {
+  color: white !important; /* Force white text color */
+}
+
+/* Right Margin for Nav Items */
+.ms-auto {
+  margin-right: 15px; /* Adjust margin for right-aligned items */
+}
+
+/* User Name Styling */
+.getUserName {
+  display: flex; /* Flex display for better alignment */
+  align-items: center; /* Center items vertically */
+  margin: 0 15px; /* Margin for spacing */
+}
+
+/* Username Styling */
+.username {
+  color: white; /* White text color */
+  cursor: pointer; /* Pointer cursor for click indication */
+  font-weight: 500; /* Slightly bolder text */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover Effect for Username */
+.username:hover {
+  color: #d1c4e9; /* Change color on hover */
+}
+
+/* Logout Icon Styling */
+.logout-icon {
+  margin-left: 10px; /* Space between username and icon */
+  margin-bottom: 2px; /* Slight vertical adjustment */
+  cursor: pointer; /* Pointer cursor for click indication */
+  color: white; /* Icon color */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Logout Icon Hover Effect */
+.logout-icon:hover {
+  color: #d1c4e9; /* Change color on hover */
+}
